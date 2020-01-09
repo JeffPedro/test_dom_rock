@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Pagina de teste dom rock">
+    <meta name="keywords" content="#" >
+    <meta name="author" content="uHealthy">
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Teste - Dom Rock">
+    <meta property="og:title" content="teste - Dom Rock">
+    <meta property="og:description"
+          content="Teste dom rock.">
+    <meta property="og:image" content="#">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:url" content="#">
+    <meta name="theme-color" content="#0087bc">
+    <title>TESTE - Dom Rock</title>
+
+    <!-- BOOTstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/domrock.css">
+
+</head>
+<body>
+<div class="container p-b-10 bb no-p-l">
+    <div class="col-md-1 no-p-l">
+        <img src="assets/img/logo.png">
+    </div>
+</div>
+
+<div class="container p-b-10 bb no-p-l min-h-40">
+</div>
+
+<div class="container m-t-30 no-p-l ">
+    <div class="row page-content">
+        <div class="col-md-2 bg-barra-azul">
+
+        </div>
+        <div class="col-md-10 bg-branco">
+            <div class="row m-15">
+                <div class="col-md-8">
+                    <span class="font-12 font-cinza">Olá <strong>Jefferson Pedro</strong>, bem vindo ao Dom Rock</span>
+                </div>
+                <div class="col-md-4" align="right">
+                    <span class="font-12 font-verde-data">São josé dos campos, 08 de janeiro de 2020</span>
+                </div>
+            </div>
+            <div class="row m-15 m-t-45">
+                <div class="col-md-10">
+                    <h5 class="titulo-pagina">Dashboard das Obrigações</h5>
+                </div>
+                <div class="col-md-2" align="right">
+
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="checkbox" class="checkbox-azul-header"
+                                       aria-label="Checkbox for following text input">
+                            </div>
+                        </div>
+                        &nbsp;
+                        <span>Incluir filiais</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row m-15 bg-div-cinza">
+                <div class="row col-md-12 p-40">
+                    <div class="col-md-5 p-l-r-5">
+                        <select class="form-control">
+                            <option>SPED FISCAL</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3 p-l-r-5">
+                        <select class="form-control">
+                            <option>Janeiro</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2 p-l-r-5">
+                        <select class="form-control">
+                            <option>2020</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2 p-l-r-5">
+                        <button type="button" class="btn btn-filtrar btn-block"> Filtrar</button>
+                    </div>
+                </div>
+
+                <div class="row col-md-12 mx-auto">
+
+                    <div class="col-md-3 rounded-lg">
+                        <div class="col bg-card b-r-8 p-20">
+                            <div class="d-block mx-auto p-b-20" align="center"><span class="titulo-card">Obrigações Geradas</span>
+                            </div>
+                            <div class="d-block mx-auto p-b-20" align="center">
+                                <div class="bg-cinza-redondo rounded-circle">
+                                    <div id="wrapper" class="m-barra">
+                                        <div id="load-yellow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-block mx-auto" align="center"><span class="num-card"> 25 de 256</span></div>
+                        </div>
+                        <div class="m-t-10 ver-mais" style="padding-left: 20px;" align="center"><span>Ver Mais</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 rounded-lg">
+                        <div class="col bg-card b-r-8 p-20">
+                            <div class="d-block mx-auto p-b-20" align="center"><span class="titulo-card">Obrigações validadas no IPVA</span>
+                            </div>
+                            <div class="d-block mx-auto p-b-20" align="center">
+                                <div class="bg-cinza-redondo rounded-circle">
+                                    <div id="wrapper" class="m-barra">
+                                        <div id="load-green"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-block mx-auto" align="center"><span class="num-card"> 25 de 256</span></div>
+                        </div>
+                        <div class="m-t-10 ver-mais" style="padding-left: 20px;" align="center"><span>Ver Mais</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 rounded-lg">
+                        <div class="col bg-card b-r-8 p-20">
+                            <div class="d-block mx-auto p-b-20" align="center"><span class="titulo-card">Relatórios e verificaçõees</span>
+                            </div>
+                            <div class="d-block mx-auto p-b-20" align="center">
+                                <div class="bg-cinza-redondo rounded-circle">
+                                    <div id="wrapper" class="m-barra">
+                                        <div id="load-light-blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-block mx-auto" align="center"><span class="num-card"> 25 de 256</span></div>
+                        </div>
+                        <div class="m-t-10 ver-mais" style="padding-left: 20px;" align="center"><span>Ver Mais</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 rounded-lg">
+
+                        <div class="col bg-card b-r-8 p-20">
+                            <div class="d-block mx-auto p-b-20" align="center"><span class="titulo-card">Obrigações transmitidas</span>
+                            </div>
+                            <div class="d-block mx-auto p-b-20" align="center">
+                                <div class="bg-cinza-redondo rounded-circle">
+                                    <div id="wrapper" class="m-barra">
+                                        <div id="load-blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-block mx-auto" align="center"><span class="num-card"> 25 de 256</span></div>
+                        </div>
+                        <div class="m-t-10 ver-mais" style="padding-left: 20px;" align="center"><span>Ver Mais</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+</html>

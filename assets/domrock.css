@@ -1,0 +1,276 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    /*background-image: linear-gradient(#01649d, #80a7d2);*/
+    background: linear-gradient(#01649d, #80a7d2);
+}
+
+.no-p-l {
+    padding: 0;
+}
+
+.min-h-40 {
+    min-height: 40px;
+}
+
+.p-b-10 {
+    padding-bottom: 10px;
+}
+
+.p-b-20{
+    padding-bottom: 20px;
+}
+
+
+.p-40{
+    padding: 40px 4px 0 40px;
+}
+
+.m-8
+{
+    margin: 8px;
+}
+
+.m-l-50{
+    margin-left: 50px;
+}
+.m-t-30 {
+    margin-top: 30px;
+}
+.m-t-10 {
+    margin-top: 10px;
+}
+
+.m-t-45 {
+    margin-top: 45px !important;
+}
+
+.m-30 {
+    margin: 30px;
+}
+
+.m-15 {
+    margin: 15px;
+}
+
+.bb {
+    border-bottom: 2px solid #5195bc;
+}
+
+.page-content{
+    min-height: 1000px;
+    margin-bottom: 100px;
+}
+.bg-barra-azul {
+    background-color: #11456c;
+}
+
+.bg-branco {
+    background-color: #fff;
+}
+
+
+.ver-mais
+{
+    color: #00b4f1;
+    font-size: 12px;
+}
+
+/*
+ HEADER BEM VINDO E DATA
+ */
+
+.font-cinza {
+    color: #5a6374;
+}
+
+.font-verde-data {
+    color: #33a3a7;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.titulo-pagina {
+    color: #01619b;
+}
+
+/*
+    DIV CARDS
+ */
+
+.bg-div-cinza {
+    background-color: #e6e9f2;
+    min-height: 600px;
+}
+
+.p-l-r-5
+{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.checkbox-azul-header
+{
+    border-radius: 2px;
+    outline:2px solid lightblue;
+    outline-offset: -2px;
+    box-shadow: 0 0 3px lightblue;
+}
+
+select {
+    background-color: transparent !important;
+}
+
+.btn-filtrar{
+    color: #fff;
+    background-color: #00b4f1;
+}
+
+.bg-card
+{
+    background-color: #ffffff;
+    border: 1px solid #c8d6e1;
+    margin: 8px;
+}
+
+.bg-cinza-redondo
+{
+    background-color: #e6e9f2;
+    padding: 17px;
+    height: 100px;
+    width: 100px;
+}
+.t-60{
+    width: 60%;
+}
+
+.b-r-8{
+    border-radius: 8%;
+}
+
+.p-20{
+    padding: 25px;
+}
+
+.titulo-card{
+    color: #119597;
+}
+
+.num-card{
+    font-size: 12px;
+    color: #576475;
+}
+
+.m-barra{
+    margin: 6px auto;
+}
+
+#wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 60px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 2px;
+    margin: 4px;
+    border-radius: 5px;
+}
+
+
+#load-yellow {
+
+    position: absolute;
+    width: 54px;
+    height: 85%;
+    bottom: 2px;
+    background-color: #fddb56;
+    animation-duration: 3s;
+    animation-name: fillbar85;
+    border-radius: 5px;
+
+}
+
+
+#load-green {
+
+    position: absolute;
+    width: 54px;
+    height: 60%;
+    bottom: 2px;
+    background-color: #7cba91;
+    animation-duration: 3s;
+    animation-name: fillbar60;
+    border-radius: 5px;
+
+}
+
+#load-light-blue {
+
+    position: absolute;
+    width: 54px;
+    height: 30%;
+    bottom: 2px;
+    background-color: #119599;
+    animation-duration: 3s;
+    animation-name: fillbar30;
+    border-radius: 5px;
+
+}
+
+#load-blue {
+
+    position: absolute;
+    width: 54px;
+    height: 75%;
+    bottom: 2px;
+    background-color: #00b4f1;
+    animation-duration: 3s;
+    animation-name: fillba75;
+    border-radius: 5px;
+
+}
+
+
+@keyframes fillbar85 {
+    from {
+        height: 0%;
+    }
+
+    to {
+        height: 85%;
+    }
+}
+
+@keyframes fillbar60 {
+    from {
+        height: 0%;
+    }
+
+    to {
+        height: 60%;
+    }
+}
+
+@keyframes fillbar30 {
+    from {
+        height: 0%;
+    }
+
+    to {
+        height: 30%;
+    }
+}
+
+@keyframes fillba75 {
+    from {
+        height: 0%;
+    }
+
+    to {
+        height: 75%;
+    }
+}
